@@ -32,7 +32,13 @@ public class sumMaxSumheight  {
         }
         return 1+size(rootNode.left)+size(rootNode.right);
     }
+public static int sum(Node rootNode){
+    if (rootNode==null) {
+        return 0;
 
+    }
+return rootNode.val+sum(rootNode.left)+sum(rootNode.right);
+}
 public static void main(String[] args) {
     sumMaxSumheight tree = new sumMaxSumheight();
     Node rootNode = tree.new Node(2);
@@ -50,6 +56,7 @@ public static void main(String[] args) {
     b.right=br;
 preorder(rootNode);
 System.out.println("size : "+size(rootNode));
+System.out.println("sum : "+sum(rootNode));
 
     
 }
