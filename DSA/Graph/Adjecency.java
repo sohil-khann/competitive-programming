@@ -1,4 +1,7 @@
+
+package Graph;
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Adjecency {
@@ -37,4 +40,4 @@ public class Adjecency {
 
 
     }
-}|
+}

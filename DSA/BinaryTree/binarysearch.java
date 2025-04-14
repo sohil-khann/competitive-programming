@@ -1,3 +1,5 @@
+package BinaryTree;
+
 import java.util.Arrays;
 
 public class binarysearch {

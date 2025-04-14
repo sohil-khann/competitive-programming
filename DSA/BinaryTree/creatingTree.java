@@ -1,4 +1,5 @@
 // package DSA.BinaryTree;
+package BinaryTree;
 
 public class creatingTree {
     

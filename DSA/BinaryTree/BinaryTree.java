@@ -1,3 +1,5 @@
+package BinaryTree;
+
 public class BinaryTree
 {
     static class Node{
