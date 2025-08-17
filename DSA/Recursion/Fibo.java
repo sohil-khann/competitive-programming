@@ -6,6 +6,7 @@ public class Fibo {
         System.out.println("Enter a number:");
         int n = sc.nextInt();
         System.out.println(fib(n));
+        
     }
 
     public static int fib(int n){
@@ -13,7 +14,8 @@ public class Fibo {
            
             return n;
         }
-return fib(n-1)+fib(n-2);
+        return fib(n-1)+fib(n-2);
+      
        
 
     }
