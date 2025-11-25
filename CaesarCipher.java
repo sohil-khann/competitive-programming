@@ -96,10 +96,10 @@ public class CaesarCipher {
                         decryptKey = sc.nextInt();
                         sc.nextLine();
 
-                        if (decryptKey >= 2 && decryptKey <= 26) {
+                        if (decryptKey >= 1 && decryptKey <= 26) {
                             break;
                         } else {
-                            System.out.println("⚠ Invalid key! Please enter a number between 2 and 26.");
+                            System.out.println("⚠ Invalid key! Please enter a number between 1 and 26.");
                         }
                     }
 
